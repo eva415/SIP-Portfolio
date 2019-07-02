@@ -1,0 +1,96 @@
+body {
+  background-color: black;
+  font-family: 'Crimson Text', serif;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 36px
+}
+
+.fire {
+  background-image: url("fire.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px 200px;
+  margin:0 auto;
+  width: 1500px
+}
+
+h3 {
+  font-size: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+button {
+	background-color:transparent;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Crimson Text', serif;
+	font-size:16px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a4b0a2;
+}
+
+button:hover {
+  background-color:white;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:2px solid black;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family: 'Crimson Text', serif;
+	font-size:16px;
+	padding:4px 12px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #a4b0a2;
+}
+
+.regularText {
+  margin:0 auto; /* this will center the page */
+  width:1100px; /*  use your width here */
+}
+
+.posts {
+  margin:0 auto; /* this will center the page */
+  width:1200px;
+}
+
+.black {
+  display: block; height: 1px;
+  border: 0;
+  border-color: solid black;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.red {
+  display: block; height: 1px;
+  border: 0;
+  border-top: 1px solid #9e2000;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.paragraphs {
+  text-indent: 30px
+}
